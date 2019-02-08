@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24337" started-at="2019-02-06T19:24:03Z" finished-at="2019-02-06T19:24:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24337" started-at="2019-02-06T19:24:03Z" finished-at="2019-02-06T19:24:27Z">
+      <class name="com.parkingcalculator.test.ParkingCalTest">
+        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="beforeAllTestStart" is-config="true" duration-ms="24" started-at="2019-02-06T14:24:03Z" finished-at="2019-02-06T14:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTestStart -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="beforeEachTestStart" is-config="true" duration-ms="4451" started-at="2019-02-06T14:24:03Z" finished-at="2019-02-06T14:24:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="PASS" signature="calculateShotTermParking()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="calculateShotTermParking" duration-ms="14098" started-at="2019-02-06T14:24:07Z" finished-at="2019-02-06T14:24:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculateShotTermParking -->
+        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="afterEachTestEnd" is-config="true" duration-ms="5741" started-at="2019-02-06T14:24:21Z" finished-at="2019-02-06T14:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestEnd -->
+        <test-method status="PASS" signature="afterAllTestCompleted()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="afterAllTestCompleted" is-config="true" duration-ms="0" started-at="2019-02-06T14:24:27Z" finished-at="2019-02-06T14:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTestCompleted -->
+      </class> <!-- com.parkingcalculator.test.ParkingCalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
