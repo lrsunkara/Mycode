@@ -11,7 +11,7 @@ public class ParkingCalTest extends Base {
 	HomePage myHomePage = new HomePage(); 
 
 @Test
-public void calculateShotTermParking() {
+public void calculateParking() {
 	myHomePage.goto_Parkingcal_Website();
 	myHomePage.select_shortTermParking();
 	myHomePage.select_longTermParking();

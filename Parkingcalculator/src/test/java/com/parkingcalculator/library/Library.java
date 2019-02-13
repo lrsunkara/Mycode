@@ -28,7 +28,6 @@ public class Library {
 		driver = _driver;
 
 	}
-
 	/***
 	 * This method launch the browser, wait for 30sec and maximize the window
 	 * 

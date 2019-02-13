@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.parkingcalculator.test.ParkingCalTest">
+      <class name="com.parkingcalculator.test.DDTParkingCalc">
         <methods>
           <include name="beforeAllTestStart"/>
           <include name="afterEachTestEnd"/>
           <include name="afterAllTestCompleted"/>
-          <include name="calculateShotTermParking"/>
+          <include name="beforeTest"/>
+          <include name="dataDrivenTest"/>
           <include name="beforeEachTestStart"/>
         </methods>
-      </class> <!-- com.parkingcalculator.test.ParkingCalTest -->
+      </class> <!-- com.parkingcalculator.test.DDTParkingCalc -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
