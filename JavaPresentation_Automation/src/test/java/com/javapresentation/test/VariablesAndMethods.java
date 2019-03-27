@@ -8,7 +8,6 @@ public class VariablesAndMethods {
 	String color;
 	//Behavior of the objets
 	public String getInfo() {
-		
 		sex= "Female";
 		age = 20;
 		color = "Fair";
