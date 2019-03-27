@@ -32,9 +32,7 @@ public class VariablesAndMethods {
 
 	public static void main(String[] args) {
 		VariablesAndMethods student = new VariablesAndMethods();
-		
 		VariablesAndMethods.name = "Marie";//calling instance static variable
-		
 		System.out.println(student.getInfo());
 		student.eating();
 		student.running();
