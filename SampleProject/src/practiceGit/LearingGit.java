@@ -18,7 +18,7 @@ public class LearingGit {
 		 arrayList.add(1,"INSERTED ELEMENT");
 		System.out.println("ArrayList contains..");
 		for(int i = 0;i<arrayList.size();i++) {
-			System.out.println(arrayList.get(i));
+			System.out.println("Lakshmi:" + arrayList.get(i));
 		}
 	
 	
