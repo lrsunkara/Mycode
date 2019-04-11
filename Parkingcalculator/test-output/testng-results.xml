@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22595" started-at="2019-02-15T17:42:32Z" finished-at="2019-02-15T17:42:54Z">
+  <suite name="Suite" duration-ms="24211" started-at="2019-03-07T17:18:52Z" finished-at="2019-03-07T17:19:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22595" started-at="2019-02-15T17:42:32Z" finished-at="2019-02-15T17:42:54Z">
+    <test name="Test" duration-ms="24211" started-at="2019-03-07T17:18:52Z" finished-at="2019-03-07T17:19:16Z">
       <class name="com.parkingcalculator.test.ParkingCalTest">
-        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="beforeAllTestStart" is-config="true" duration-ms="16" started-at="2019-02-15T12:42:32Z" finished-at="2019-02-15T12:42:32Z">
+        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="beforeAllTestStart" is-config="true" duration-ms="16" started-at="2019-03-07T12:18:52Z" finished-at="2019-03-07T12:18:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeAllTestStart -->
-        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="beforeEachTestStart" is-config="true" duration-ms="4145" started-at="2019-02-15T12:42:32Z" finished-at="2019-02-15T12:42:36Z">
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="beforeEachTestStart" is-config="true" duration-ms="4280" started-at="2019-03-07T12:18:52Z" finished-at="2019-03-07T12:18:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTestStart -->
-        <test-method status="PASS" signature="calculateParking()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="calculateParking" duration-ms="12679" started-at="2019-02-15T12:42:36Z" finished-at="2019-02-15T12:42:48Z">
+        <test-method status="PASS" signature="calculateParking()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="calculateParking" duration-ms="14181" started-at="2019-03-07T12:18:56Z" finished-at="2019-03-07T12:19:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateParking -->
-        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="afterEachTestEnd" is-config="true" duration-ms="5732" started-at="2019-02-15T12:42:48Z" finished-at="2019-02-15T12:42:54Z">
+        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="afterEachTestEnd" is-config="true" duration-ms="5705" started-at="2019-03-07T12:19:10Z" finished-at="2019-03-07T12:19:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestEnd -->
-        <test-method status="PASS" signature="afterAllTestCompleted()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@127bd23]" name="afterAllTestCompleted" is-config="true" duration-ms="0" started-at="2019-02-15T12:42:54Z" finished-at="2019-02-15T12:42:54Z">
+        <test-method status="PASS" signature="afterAllTestCompleted()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="afterAllTestCompleted" is-config="true" duration-ms="0" started-at="2019-03-07T12:19:16Z" finished-at="2019-03-07T12:19:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAllTestCompleted -->
       </class> <!-- com.parkingcalculator.test.ParkingCalTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
