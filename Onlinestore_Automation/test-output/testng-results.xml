@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45451" started-at="2019-04-12T00:16:08Z" finished-at="2019-04-12T00:16:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45451" started-at="2019-04-12T00:16:08Z" finished-at="2019-04-12T00:16:54Z">
+      <class name="com.onlinestore.tests.OnlineStoreTests">
+        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:com.onlinestore.tests.OnlineStoreTests@1610302]" name="beforeAllTestStart" is-config="true" duration-ms="31" started-at="2019-04-11T20:16:08Z" finished-at="2019-04-11T20:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTestStart -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.onlinestore.tests.OnlineStoreTests@1610302]" name="beforeEachTestStart" is-config="true" duration-ms="4752" started-at="2019-04-11T20:16:09Z" finished-at="2019-04-11T20:16:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="PASS" signature="buyCasualDress()[pri:1, instance:com.onlinestore.tests.OnlineStoreTests@1610302]" name="buyCasualDress" duration-ms="34716" started-at="2019-04-11T20:16:13Z" description="This testcase is for select casualdress" finished-at="2019-04-11T20:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyCasualDress -->
+        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.onlinestore.tests.OnlineStoreTests@1610302]" name="afterEachTestEnd" is-config="true" duration-ms="5924" started-at="2019-04-11T20:16:48Z" finished-at="2019-04-11T20:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestEnd -->
+        <test-method status="PASS" signature="afterAllTestCompleted()[pri:0, instance:com.onlinestore.tests.OnlineStoreTests@1610302]" name="afterAllTestCompleted" is-config="true" duration-ms="0" started-at="2019-04-11T20:16:54Z" finished-at="2019-04-11T20:16:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTestCompleted -->
+      </class> <!-- com.onlinestore.tests.OnlineStoreTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

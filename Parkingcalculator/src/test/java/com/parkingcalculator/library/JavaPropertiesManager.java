@@ -70,26 +70,26 @@ public void setProperty(String key, String value) {
 }
 	
 	
-	//public static void main(String[] args) {
+	public static void main(String[] args) {
 		// Testing reading property key
 	//JavaPropertiesManager javaManager = new JavaPropertiesManager("src/test/resources/config.properties");
 		//String value = javaManager.readProperty("browserType");
 		//logger.info("Property value is: "+ value);
 		//Testing existing property file
 		
-		//JavaPropertiesManager javaProperty = new JavaPropertiesManager("src/test/resources/config.properties");
+	//	JavaPropertiesManager javaProperty = new JavaPropertiesManager("src/test/resources/config.properties");
 		//javaProperty.setProperty("name", "Lakshmi");
 		
 		// Testing new property file
 		
-		//JavaPropertiesManager javaPropertyTwo = new JavaPropertiesManager("src/test/resources/session.properties");
-		//javaPropertyTwo.setProperty("car", "BMW");
+		JavaPropertiesManager javaPropertyTwo = new JavaPropertiesManager("src/test/resources/session.properties");
+		javaPropertyTwo.setProperty("car", "BMW");
 		
 		
 		
 		
 		
-	//}
+	}
 	
 	
 

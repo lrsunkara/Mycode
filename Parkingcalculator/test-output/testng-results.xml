@@ -1,33 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24211" started-at="2019-03-07T17:18:52Z" finished-at="2019-03-07T17:19:16Z">
+  <suite name="Default suite" duration-ms="56032" started-at="2019-04-18T20:47:19Z" finished-at="2019-04-18T20:48:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24211" started-at="2019-03-07T17:18:52Z" finished-at="2019-03-07T17:19:16Z">
-      <class name="com.parkingcalculator.test.ParkingCalTest">
-        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="beforeAllTestStart" is-config="true" duration-ms="16" started-at="2019-03-07T12:18:52Z" finished-at="2019-03-07T12:18:52Z">
+    <test name="Default test" duration-ms="56032" started-at="2019-04-18T20:47:19Z" finished-at="2019-04-18T20:48:15Z">
+      <class name="com.parkingcalculator.test.DDTParkingCalc">
+        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeAllTestStart" is-config="true" duration-ms="44" started-at="2019-04-18T16:47:19Z" finished-at="2019-04-18T16:47:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeAllTestStart -->
-        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="beforeEachTestStart" is-config="true" duration-ms="4280" started-at="2019-03-07T12:18:52Z" finished-at="2019-03-07T12:18:56Z">
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeEachTestStart" is-config="true" duration-ms="7069" started-at="2019-04-18T16:47:19Z" finished-at="2019-04-18T16:47:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachTestStart -->
-        <test-method status="PASS" signature="calculateParking()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="calculateParking" duration-ms="14181" started-at="2019-03-07T12:18:56Z" finished-at="2019-03-07T12:19:10Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeTest" is-config="true" duration-ms="1367" started-at="2019-04-18T16:47:26Z" finished-at="2019-04-18T16:47:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- calculateParking -->
-        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="afterEachTestEnd" is-config="true" duration-ms="5705" started-at="2019-03-07T12:19:10Z" finished-at="2019-03-07T12:19:16Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="dataDrivenTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="dataDrivenTest" duration-ms="1457" started-at="2019-04-18T16:47:27Z" data-provider="ParkingCalcData" finished-at="2019-04-18T16:47:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Short-Term Parking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10:00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/10/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11:00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1/10/2019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="afterEachTestEnd" is-config="true" duration-ms="7153" started-at="2019-04-18T16:47:29Z" finished-at="2019-04-18T16:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestEnd -->
-        <test-method status="PASS" signature="afterAllTestCompleted()[pri:0, instance:com.parkingcalculator.test.ParkingCalTest@67c67e]" name="afterAllTestCompleted" is-config="true" duration-ms="0" started-at="2019-03-07T12:19:16Z" finished-at="2019-03-07T12:19:16Z">
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeEachTestStart" is-config="true" duration-ms="3764" started-at="2019-04-18T16:47:36Z" finished-at="2019-04-18T16:47:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeTest" is-config="true" duration-ms="866" started-at="2019-04-18T16:47:40Z" finished-at="2019-04-18T16:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="dataDrivenTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="dataDrivenTest" duration-ms="765" started-at="2019-04-18T16:47:41Z" data-provider="ParkingCalcData" finished-at="2019-04-18T16:47:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Economy Parking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1:00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/10/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11:30]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2/10/19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="afterEachTestEnd" is-config="true" duration-ms="7022" started-at="2019-04-18T16:47:41Z" finished-at="2019-04-18T16:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestEnd -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeEachTestStart" is-config="true" duration-ms="3510" started-at="2019-04-18T16:47:48Z" finished-at="2019-04-18T16:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeTest" is-config="true" duration-ms="977" started-at="2019-04-18T16:47:52Z" finished-at="2019-04-18T16:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="dataDrivenTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="dataDrivenTest" duration-ms="1522" started-at="2019-04-18T16:47:53Z" data-provider="ParkingCalcData" finished-at="2019-04-18T16:47:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Valet Parking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8:15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/10/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11:00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1/14/19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="afterEachTestEnd" is-config="true" duration-ms="7021" started-at="2019-04-18T16:47:54Z" finished-at="2019-04-18T16:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestEnd -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeEachTestStart" is-config="true" duration-ms="3549" started-at="2019-04-18T16:48:01Z" finished-at="2019-04-18T16:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="beforeTest" is-config="true" duration-ms="1052" started-at="2019-04-18T16:48:05Z" finished-at="2019-04-18T16:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="dataDrivenTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="dataDrivenTest" duration-ms="1612" started-at="2019-04-18T16:48:06Z" data-provider="ParkingCalcData" finished-at="2019-04-18T16:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Long-Term Garage Parking]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5:00]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/10/19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3:00]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2/12/19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDrivenTest -->
+        <test-method status="PASS" signature="afterEachTestEnd()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="afterEachTestEnd" is-config="true" duration-ms="7026" started-at="2019-04-18T16:48:08Z" finished-at="2019-04-18T16:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestEnd -->
+        <test-method status="PASS" signature="afterAllTestCompleted()[pri:0, instance:com.parkingcalculator.test.DDTParkingCalc@480dd7]" name="afterAllTestCompleted" is-config="true" duration-ms="1" started-at="2019-04-18T16:48:15Z" finished-at="2019-04-18T16:48:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterAllTestCompleted -->
-      </class> <!-- com.parkingcalculator.test.ParkingCalTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.parkingcalculator.test.DDTParkingCalc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

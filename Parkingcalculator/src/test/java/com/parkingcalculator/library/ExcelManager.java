@@ -93,38 +93,16 @@ public class ExcelManager {
 		return arrayExcelData;
 	}
 	
+		
+	
 	public static void main(String[] args) {
 		ExcelManager excelM = new ExcelManager("c:/a/testExcelData1.xlsx");
 		excelM.setExcelFile("page1");
 		excelM.setCellData("I love programing", 1, 1);
-		System.out.println("File is crated.");
+		System.out.println("File is created.");
+		
+	
+	
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
